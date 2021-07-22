@@ -61,7 +61,7 @@ if __name__ == "__main__":
 這部分其實不用全部看懂 可以看 n = p * q  那邊去猜 gen 在幹嘛  
 實際上 `miller_robin` 這個 function 就是在做 [Miller Rabin 的演算法](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) (錯字是彩蛋啦哈哈)  
 主要就只是做強偽證來產生兩個 400 bits 的質數 p , q  
-
+然後這是我第一次刻 Miller Rabin (((
 
 往下看
 ```python
@@ -125,8 +125,8 @@ def slice(flag):
 ## Solve
 
 統合一下拿到的資訊  
-$p * q$ , $p \oplus q$ , $f_1 \oplus f_2$
-
+- <img src="https://latex.codecogs.com/gif.latex?O_t=p*q p \oplus q f_1 \oplus f_2" /> 
+$p * q$ , $p \oplus q$ , $f_1 \oplus f_2$  
 實際上在拿到 $p * q\ ,\ p \oplus q$ 後就可以分解出 p 跟 q 了  
 
 我們只需要確認 LSB 是多少 就可以開始對 bits 往前做 BFS + 剪枝  

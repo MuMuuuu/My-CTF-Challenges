@@ -6,7 +6,7 @@ There's no desciption :) , just solve that.
 
 ## Task
 
-```python=
+```python
 ...
 
 key = urandom(16)
@@ -26,8 +26,8 @@ with open("output" , "wb") as f:
 
 看一下題目
 import printable 當作 alpha
-把 alpha 每個字拆開然後 padding 之後做 AES ECB Encrypt 寫進 [alpha](/alpha)
-然後把 Flag 每個字拆開 Padding Encrypt 寫進 [output](/output)
+把 alpha 每個字拆開然後 padding 之後做 AES ECB Encrypt 寫進 [alpha](./alpha)
+然後把 Flag 每個字拆開 Padding Encrypt 寫進 [output](./output)
 
 根據 ECB 的 Encryption Flow 來看
 
@@ -41,7 +41,7 @@ import printable 當作 alpha
 把 alpha 跟 output 分成 16 bytes / block 拆出來
 然後建表轉換
 
-```python=
+```python
 #!/usr/bin/python
 
 from string import printable

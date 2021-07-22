@@ -4,6 +4,8 @@
 
 There's no desciption :) , just solve that.
 
+Released : [task.py](./task.py) , [output](./output) , [alpha](./alpha)
+
 ## Task
 
 ```python

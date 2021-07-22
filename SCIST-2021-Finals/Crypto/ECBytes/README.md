@@ -24,22 +24,22 @@ with open("output" , "wb") as f:
         f.write(tmp)
 ```
 
-看一下題目
-import printable 當作 alpha
-把 alpha 每個字拆開然後 padding 之後做 AES ECB Encrypt 寫進 [alpha](./alpha)
-然後把 Flag 每個字拆開 Padding Encrypt 寫進 [output](./output)
+看一下題目  
+import printable 當作 alpha  
+把 alpha 每個字拆開然後 padding 之後做 AES ECB Encrypt 寫進 [alpha](./alpha)  
+然後把 Flag 每個字拆開 Padding Encrypt 寫進 [output](./output)  
 
-根據 ECB 的 Encryption Flow 來看
+根據 ECB 的 Encryption Flow 來看 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/ECB_encryption.svg/1920px-ECB_encryption.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/c/c4/Ecb_encryption.png)
 
-既然已知每個字 Encrypt 的結果 也已知 Flag 每個字 Encrypt 的結果
+既然已知每個字 Encrypt 的結果 也已知 Flag 每個字 Encrypt 的結果  
 那其實就只需要做 Substitution 而已
 
 ## Solve
 
-把 alpha 跟 output 分成 16 bytes / block 拆出來
-然後建表轉換
+把 alpha 跟 output 分成 16 bytes / block 拆出來  
+然後建表轉換  
 
 ```python
 #!/usr/bin/python
@@ -65,5 +65,4 @@ for i in out:
 
 print(res)
 ```
-
 

@@ -125,7 +125,7 @@ def slice(flag):
 ## Solve
 
 統合一下拿到的資訊  
-- <img src="https://latex.codecogs.com/gif.latex?O_t=p*q p \oplus q f_1 \oplus f_2" /> 
+- <img src="https://latex.codecogs.com/gif.latex?p*q%20%2C%20p%20%5Coplus%20q%20%2C%20f_1%20%5Coplus%20f_2" />
 $p * q$ , $p \oplus q$ , $f_1 \oplus f_2$  
 實際上在拿到 $p * q\ ,\ p \oplus q$ 後就可以分解出 p 跟 q 了  
 

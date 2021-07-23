@@ -125,15 +125,14 @@ def slice(flag):
 ## Solve
 
 統合一下拿到的資訊  
-- <img src="https://latex.codecogs.com/gif.latex?p*q%20%2C%20p%20%5Coplus%20q%20%2C%20f_1%20%5Coplus%20f_2" />
-$p * q$ , $p \oplus q$ , $f_1 \oplus f_2$  
-實際上在拿到 $p * q\ ,\ p \oplus q$ 後就可以分解出 p 跟 q 了  
+- <img src="https://latex.codecogs.com/gif.latex?p*q%20%2C%20p%20%5Coplus%20q%20%2C%20f_1%20%5Coplus%20f_2" />  
+實際上在拿到 p\*q 跟 p⊕ q 後就可以分解出 p 跟 q 了  
 
 我們只需要確認 LSB 是多少 就可以開始對 bits 往前做 BFS + 剪枝  
 我的作法是從 [xor_factor](https://github.com/sliedes/xor_factor ) 這邊學來的  
 
 大概概念就是爆搜每個位置的 bit 之後  
-確認在 & mask 的情況下是否符合我們提供的 $p * q\ 跟\ p \oplus q$  
+確認在 & mask 的情況下是否符合我們提供的 n 跟 x  
 符合就加進 list 裡面 之後再去確認是否有一組是 n 的 factor  
 
 拿到 p q 之後就可以做 RSA Decryption 再做 One Time Pad

@@ -6,9 +6,9 @@
 | --------------------------- | -------- |
 | [CTRSA](./Crypto/CTRSA)     | Crypto   |
 | [ECBytes](./Crypto/ECBytes) | Crypto   |
-| [CarryMe](./Crypto/CarryME) | Crypto   |
+| [CarryMe](./Crypto/CarryMe) | Crypto   |
 | [QQCode](./Misc/QQCode)     | Misc     |
-| [Base69](./Misc/Base59)     | Misc     |
+| [Base69](./Misc/Base69)     | Misc     |
 
 
 ## Scoreboard

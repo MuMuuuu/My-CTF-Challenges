@@ -7,11 +7,13 @@
 | [CTRSA](./Crypto/CTRSA)     | Crypto   |
 | [ECBytes](./Crypto/ECBytes) | Crypto   |
 | [CarryMe](./Crypto/CarryME) | Crypto   |
-| [QQCode](./Crypto/QQCode)   | Misc     |
-| [Base69](./Crypto/Base59)   | Misc     |
+| [QQCode](./Misc/QQCode)     | Misc     |
+| [Base69](./Misc/Base59)     | Misc     |
 
 
 ## Scoreboard
+
+[Web Archive](http://web.archive.org/web/20210723050204/https://ctf.scist.org/scoreboard)
 
 ![](https://i.imgur.com/oFfJjZL.png)
 

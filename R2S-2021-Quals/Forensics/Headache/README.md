@@ -2,20 +2,20 @@
 
 ## Description
 
-SeaCat009's has some problems , seems like he has been ideologically transformed.
+SeaCat009's has some problems , seems like he has been ideologically transformed.  
 Can you help him to rebuild his head ?
 
-> Hint : 0 point
+> Hint : 0 point  
 > CRC32 is not changed
 
-> Hint : 0 point
+> Hint : 0 point  
 > Width and Height < 650
 
 Released : [task.png](./task.png)
 
 ## Task
 
-這題已經很佛心的告訴了你 CRC32 是不是沒有變的
+這題已經很佛心的告訴了你 CRC32 是不是沒有變的  
 同時也給了 IHDR 的範圍 所以只需要修改 Header 然後爆搜長寬
 
 ## Solve

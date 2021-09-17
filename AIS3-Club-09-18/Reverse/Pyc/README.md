@@ -39,5 +39,6 @@ print(res)
 ```
 
 如果是在 Linux 環境下的話  
-可以使用 uncompyle6 這個 apt 直接離線 decompile
+可以使用 uncompyle6 直接離線 decompile  
+安裝 : sudo pip3 install uncompyle6
 

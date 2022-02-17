@@ -13,6 +13,8 @@ Released : [flag.ttr](./flag.ttr)
 
 ![](https://i.imgur.com/zy7TW04.png)
 
+## Solve
+
 題目中有說 Flag 分成兩個部分 所以可以注意到 Part 1 後面有一段 Base64  
 可以直接 Edit flag.ttr 把那段抓出來做 Decode 就有 Flag ㄌ
 

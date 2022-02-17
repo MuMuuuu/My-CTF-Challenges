@@ -1,0 +1,198 @@
+goto -320 0
+face 90
+forward 70
+
+goto -320 35
+right 90
+forward 50
+
+goto -270 70
+right 90
+forward 70
+
+goto -260 0
+face 90
+forward 70
+right 90
+forward 35
+
+goto -260 35
+forward 35
+
+goto -260 0
+forward 35
+
+goto -210 70
+face 270
+forward 70
+left 90
+forward 35
+
+goto -165 70
+face 270
+forward 70
+left 90
+forward 35
+
+goto -90 70
+face 0
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+right 15
+forward 10
+
+goto -40  70
+face 180
+backward 60
+forward 30
+left 90
+forward 70
+
+goto 30  70
+face 270
+forward 50
+left 15
+forward 7
+left 15
+forward 7
+left 15
+forward 7
+left 15
+forward 7
+left 15
+forward 7
+left 15
+forward 7
+left 15
+forward 7
+left 15
+forward 7
+left 15
+forward 7
+left 15
+forward 7
+left 15
+forward 7
+left 15
+forward 50
+
+goto 100 60
+face 270
+forward 65
+goto 100 60
+right 200
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+right 15
+forward 6
+left 184
+forward 55
+
+goto 150  70
+face 180
+backward 60
+forward 30
+left 90
+forward 70
+
+goto 230 70
+face 270
+forward 70
+left 90
+forward 35
+
+goto 290 0
+face 270
+right 180
+forward 70
+right 90
+forward 35
+
+goto 290 35
+forward 35
+
+goto 290 0
+forward 35
+

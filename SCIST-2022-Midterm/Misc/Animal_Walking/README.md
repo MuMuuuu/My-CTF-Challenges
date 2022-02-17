@@ -23,7 +23,7 @@ Released : [path](./path)
 
 知道是 Turtle 之後就可以把語法轉換一下 
 
-```python=
+```python
 #!/usr/bin/python3
 
 from turtle import *

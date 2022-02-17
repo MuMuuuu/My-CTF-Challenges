@@ -20,4 +20,3 @@ Released : [flag.ttr](./flag.ttr)
 
 ![](https://i.imgur.com/2dtGxBO.png)
 
-Flag : `SCIST{0k_T3tr1o_1S_v3RRY_FUNY_BUT_FKOSK}`

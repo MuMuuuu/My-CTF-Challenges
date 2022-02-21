@@ -5,5 +5,5 @@
 | Challenge Name                | Category |
 | ----------------------        | -------- |
 | [逆向首戰](./Reverse/Pyc)　   　| Reverse  |
-| [第一堂咖啡課](./Reverse/Java)  | Reverse  |
+| [第一堂咖啡課](./Reverse/Class)  | Reverse  |
 

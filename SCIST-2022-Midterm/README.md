@@ -4,7 +4,7 @@
 
 | Challenge Name										| Category |
 | ----------------------------------------------------- | -------- |
-| [Caesar Cipher](./Crypto/Caesar)						| Crypto   |
+| [Caesar Cipher](./Crypto/Caesar_Cipher)				| Crypto   |
 | [Prime Generate Factory](./Crypto/Prime_Gen_Factory)	| Crypto   |
 | [Double Meet](./Crypto/Double_Meet)					| Crypto   |
 | [RPNG](./Crypto/RPNG)									| Crypto   |
